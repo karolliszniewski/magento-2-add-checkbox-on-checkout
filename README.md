@@ -1,6 +1,6 @@
 
 
-#1. We have to find module in magento 2 that we want to change
+##1. We have to find module in magento 2 that we want to change
 in this example it will be : 'vendor/magento/module-checkout/view/frontend/layout/checkout_index_index.xml'
 
 #2. To override this xml layout for checkout we can create new module in 'app/code/Aware/CheckoutShippingNote'
