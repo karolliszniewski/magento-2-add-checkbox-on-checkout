@@ -1,5 +1,3 @@
-
-
 ##1. We have to find module in magento 2 that we want to change
 in this example it will be : 'vendor/magento/module-checkout/view/frontend/layout/checkout_index_index.xml'
 
@@ -19,3 +17,7 @@ Create a new module in 'app/code/Aware/CheckoutShippingNote to override the chec
 
 #Step 3: Modify the Block and Add a New Element
 Identify the block that needs to be modified and use the <referenceBlock> tag instead of <block> to make changes. Then, follow the XML structure to the point where you can inject your new element.
+
+```xml
+<block>
+```
