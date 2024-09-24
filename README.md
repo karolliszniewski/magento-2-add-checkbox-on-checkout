@@ -18,6 +18,20 @@ Create a new module in 'app/code/Aware/CheckoutShippingNote to override the chec
 #Step 3: Modify the Block and Add a New Element
 Identify the block that needs to be modified and use the <referenceBlock> tag instead of <block> to make changes. Then, follow the XML structure to the point where you can inject your new element.
 
-```xml
-<block>
+file structure for this module:
+
+```bash
+├── etc/
+│   └── module.xml
+├── registration.php
+└── view/
+    └── frontend/
+        ├── layout/
+        │   └── checkout_index_index.xml
+        └── web/
+            ├── js/
+            │   └── view/
+            │       └── checkout-shipping-checkbox.js
+            └── template/
+                └── shipping-notification.html
 ```
